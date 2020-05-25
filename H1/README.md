@@ -2,10 +2,52 @@
 This repository is to store exercises done for [Tero Karvinen's Go Programming](http://terokarvinen.com/2020/go-programming-course-2020-w22/#laksyt) course.
 
 ## [H1](H1/)
-* >a) Kirjoita itse keksimäsi ohjelma, joka lukee käyttäjältä syötteen (flag) ja tulostaa käyttäjälle tekstiä.
-	* [Primes](H1/Primes/)
-* >b) Tee Tour of Go: Welcome. Tätä b-alakohtaa ei tarvitse raportoida. Ei tarvitse tehdä lisäkohtaa "Go offline (optional)".
-* >c) Vapaaehtoinen, helppo: Tee Tour of Go: "Basics": "Packages, variables and functions" Tätä c-alakohtaa ei tarvitse raportoida.
-* >d) Vapaaehtoinen: Tee Tour of Go: "Flow control statements: for, if else, switch and defer". Tätä d-kohtaa ei tarvitse raportoida. Tuo "Exercise: Loops and Functions" -harjoitus voi olla haastavampi, voit halutessasi jättää sen väliin. Muut kohdat ovat suoraviivaisia.
-* >e) Vapaaehtoinen: Tee rot13-salakirjoitusohjelma. Se siirtää kirjaimia a-zA-Z 13 askelta eteenpäin. Ameriikkalaisia aakkosia on 26, tästä puolet on 13, joten sama ohjelma salaa ja purkaa. Esimerkiksi "Tero" -> "Greb".
-	* [Rot13](H1/Rot13/)
+>a) Kirjoita itse keksimäsi ohjelma, joka lukee käyttäjältä syötteen (flag) ja tulostaa käyttäjälle tekstiä.
+[Primes](H1/Primes/)
+Yksinkertainen ohjelma, joka tulostaa kaikki alkuluvut kahden ja annetun luvun väliltä.
+Esim.
+~~~~
+$ go build
+$ ./Primes
+Tulosta alkuluvut väliltä 2 ja syötetty arvo.
+Määritä yläraja: 30
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+$ ./Primes -max 30
+Tulosta alkuluvut väliltä 2 ja syötetty arvo.
+Annettu yläraja 30 (flag)
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+~~~~
+    
+>e) Vapaaehtoinen: Tee rot13-salakirjoitusohjelma. Se siirtää kirjaimia a-zA-Z 13 askelta eteenpäin. Ameriikkalaisia aakkosia on 26, tästä puolet on 13, joten sama ohjelma salaa ja purkaa. Esimerkiksi "Tero" -> "Greb".
+[Rot13](H1/Rot13/)
+Ohjelma, joka kääntää stringin rot13-salakirjoitusmenetelmällä.
+Esim.
+~~~~
+$ build go
+$ ./Rot13 
+Rot13-kääntäjä
+Syötä tekstiä käännettäväksi: Hello, world!
+Uryyb, jbeyq!
+$ ./Rot13 -s "Uryyb, jbeyq!"
+Rot13-kääntäjä
+Teksti käännettäväksi: Uryyb, jbeyq!
+Hello, world!
+~~~~
