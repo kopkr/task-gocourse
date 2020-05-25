@@ -8,4 +8,6 @@ The exercises are in Finnish.
 
 1. [H1](H1/)
 	* [a) Primes](H1/Primes/)
+		* Kirjoita itse keksimäsi ohjelma, joka lukee käyttäjältä syötteen (flag) ja tulostaa käyttäjälle tekstiä
 	* [e) Rot13](H1/Rot13/)
+		* Tee rot13-salakirjoitusohjelma.
