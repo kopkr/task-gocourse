@@ -4,8 +4,7 @@ This repository is to store exercises done for [Tero Karvinen's Go Programming](
 ## [H1](H1/)
 >a) Kirjoita itse keksimäsi ohjelma, joka lukee käyttäjältä syötteen (flag) ja tulostaa käyttäjälle tekstiä.
 
-[Primes](H1/Primes/)
-
+[Primes](Primes/)<br>
 Yksinkertainen ohjelma, joka tulostaa kaikki alkuluvut kahden ja annetun luvun väliltä.
 Esim.
 ~~~~
@@ -37,11 +36,10 @@ Annettu yläraja 30 (flag)
 23
 29
 ~~~~
-    
+<hr>
 >e) Vapaaehtoinen: Tee rot13-salakirjoitusohjelma. Se siirtää kirjaimia a-zA-Z 13 askelta eteenpäin. Ameriikkalaisia aakkosia on 26, tästä puolet on 13, joten sama ohjelma salaa ja purkaa. Esimerkiksi "Tero" -> "Greb".
 
-[Rot13](H1/Rot13/)
-
+[Rot13](Rot13/)<br>
 Ohjelma, joka kääntää stringin rot13-salakirjoitusmenetelmällä.
 Esim.
 ~~~~
