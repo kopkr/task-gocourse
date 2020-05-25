@@ -37,6 +37,7 @@ Annettu yläraja 30 (flag)
 29
 ~~~~
 <hr>
+
 >e) Vapaaehtoinen: Tee rot13-salakirjoitusohjelma. Se siirtää kirjaimia a-zA-Z 13 askelta eteenpäin. Ameriikkalaisia aakkosia on 26, tästä puolet on 13, joten sama ohjelma salaa ja purkaa. Esimerkiksi "Tero" -> "Greb".
 
 [Rot13](Rot13/)<br>
