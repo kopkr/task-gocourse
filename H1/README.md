@@ -1,7 +1,7 @@
 # Go Course exercises
 This repository is to store exercises done for [Tero Karvinen's Go Programming](http://terokarvinen.com/2020/go-programming-course-2020-w22/#laksyt) course.
 
-## [H1](H1/)
+### H1
 >a) Kirjoita itse keksimäsi ohjelma, joka lukee käyttäjältä syötteen (flag) ja tulostaa käyttäjälle tekstiä.
 
 [Primes](Primes/program.go)<br>
