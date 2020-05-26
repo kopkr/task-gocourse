@@ -6,11 +6,11 @@ This repository is to store exercises done for [Tero Karvinen's Go Programming](
 
 Käännetään staattinen 64-bittinen binääri kolmelle alustalle.
 
-![img1](img/img1)
+![img1](img/img1.jpg)
 
 Ajetaan ohjelma Linux ja Windows -käyttöjärjestelmillä.
 
-![img2](img/img2)
+![img2](img/img2.jpg)
 
 <hr>
 
