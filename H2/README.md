@@ -23,7 +23,6 @@ Ohjelma joka laskee vokaalit ja konsonantit syötetystä tekstistä.
 -f parametrilla voidaan antaa tiedosto.
 ~~~~
 $ ./LetterCount-linux-64bit 
-LetterCount. v.0.01
 Enter string: Ääkkösiä ja ruotsalainen Å
 Vowels: 13 Consonants: 10 Total: 23
 $ cat example.txt 
@@ -31,7 +30,6 @@ Vesihiisi sihisi hississä # 11, 12, 23
 
 !?:))##!?")=!¤/!=163584213--__$$ # 0
 $ ./LetterCount-linux-64bit -f example.txt 
-LetterCount. v.0.01
 Vowels: 11 Consonants: 12 Total: 23
 ~~~~
 
