@@ -15,6 +15,7 @@ Ajetaan ohjelma Linux ja Windows -käyttöjärjestelmillä.
 <hr>
 
 >b) Kirjastoja kohti. Kirjoita ohjelma, joka käyttää kahta uutta ominaisuutta tai kirjastoa Go by Example-kirjasta. Voit valita mitä vain, helppoja vaihtoehtoja ovat esimerkiksi satunnaisluvut, merkkijonojen käsittely ja aika.
+
 >c) Vapaaehtoinen: Patterit mukana. Vapaaehtoinen: kirjoita ohjelma, joka käyttää jotain uutta ominaisuutta Go:n standardikirjastoista.
 
 [LetterCount](LetterCount/program.go)<br>
