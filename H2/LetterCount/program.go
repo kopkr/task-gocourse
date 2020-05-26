@@ -10,7 +10,6 @@ import (
 
 // Main function
 func main () {
-	fmt.Println("LetterCount. v.0.01")
 	viewFile(getString());
 
 }
