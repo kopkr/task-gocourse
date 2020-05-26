@@ -2,9 +2,10 @@
 This repository is to store exercises done for [Tero Karvinen's Go Programming](http://terokarvinen.com/2020/go-programming-course-2020-w22/#laksyt) course.
 
 ## [H1](H1/)
->a) Kirjoita itse keksimäsi ohjelma, joka lukee käyttäjältä syötteen (flag) ja tulostaa käyttäjälle tekstiä.
 
-[Primes](H1/Primes/)
+[Primes](H1/Primes/program.go), [Rot13](H1/Rot13/program.go)
+
+>a) Kirjoita itse keksimäsi ohjelma, joka lukee käyttäjältä syötteen (flag) ja tulostaa käyttäjälle tekstiä.
 
 >b) Tee Tour of Go: Welcome. Tätä b-alakohtaa ei tarvitse raportoida. Ei tarvitse tehdä lisäkohtaa "Go offline (optional)".
 
@@ -14,9 +15,9 @@ This repository is to store exercises done for [Tero Karvinen's Go Programming](
 
 >e) Vapaaehtoinen: Tee rot13-salakirjoitusohjelma. Se siirtää kirjaimia a-zA-Z 13 askelta eteenpäin. Ameriikkalaisia aakkosia on 26, tästä puolet on 13, joten sama ohjelma salaa ja purkaa. Esimerkiksi "Tero" -> "Greb".
 
-[Rot13](H1/Rot13/)
-
 ## [H2](H2/)
+
+[LetterCount](H2/LetterCount/program.go), [AgeCalc](H2/AgeCalc/program.go)
 
 >a) LinWinMac! Käännä ohjelma kolmelle alustalle: Windows, Linux, Mac. Tee staattinen käännös niin, että ohjelma toimii ilman mitään riippuvuuksia tai kirjastoja. Testaa ohjelman toiminta ainakin joillain näistä alustoista ja ota ruutukaappaukset. 'CGO_ENABLED=0 GOARCH=amd64 GOOS=windows go build tero.go' (GOOS darwin, windows, linux)
 
