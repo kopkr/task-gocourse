@@ -33,6 +33,18 @@ $ ./LetterCount-linux-64bit -f example.txt
 Vowels: 11 Consonants: 12 Total: 23
 ~~~~
 
+[AgeCalc](AgeCalc/program.go)<br>
+(Työn alla) Idea: Ohjelma joka tulee ottamaan vastaan henkilötietoja (nimi, syntymäaika), laskee iän ja tulostaa.
+
+Tällä hetkellä ottaa vastaan nimen ja syntymäajan, ja esittää ne
+~~~~
+$ go run program.go 
+Syötä henkilön nimi: Aarne
+Syötä henkilön syntymäpäivä (muodossa DD.MM.YYYY): 02.06.1985
+Nimi: Aarne
+Syntymäpäivä: 1985 June 2
+~~~~
+
 <hr>
 
 >e) Vapaaehtoinen: Kirjoita yksikkötesti (unit test).
