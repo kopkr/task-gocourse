@@ -18,13 +18,13 @@ type Person struct {
 	bday time.Time
 }
 
+// Package variables
+var layoutFIN = "02.01.2006"
+
 // Input Person info
 func query() Person{
 	var p Person
-	layoutFIN := "02.01.2006"
 	locHelsinki, _ := time.LoadLocation("Europe/Helsinki")
-
-
 	fmt.Print("Syötä henkilön nimi: ")
 	p.name = scan();
 	fmt.Print("Syötä henkilön syntymäpäivä (muodossa DD.MM.YYYY): ")
@@ -35,7 +35,6 @@ func query() Person{
 
 // Print Person profile
 func profile(p Person) {
-	layoutFIN := "02.01.2006"
 	fmt.Println("Nimi:",p.name)
 	fmt.Println("Syntymäpäivä:",p.bday.Format(layoutFIN))
 	fmt.Println("Ikä:",calcAge(p.bday))

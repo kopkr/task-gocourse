@@ -30,10 +30,9 @@ func getString() (string, error){
 	flag.StringVar(&file, "f", "", "Set filepath.");
 	flag.Parse();
 
+	// If flag is empty, ask for user input
 	var bytes []byte;
 	var err error;
-
-	// If flag is empty, ask for user input
 	if file != "" {
 		bytes, err = ioutil.ReadFile(file)
 	} else {
@@ -44,6 +43,7 @@ func getString() (string, error){
 	if err != nil {
 		return "", err;
 	}
+
 	return string(bytes), err;
 }
 
