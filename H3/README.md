@@ -44,7 +44,7 @@ Hello, world
 ~~~~
 
 Materiaalit<br>
-[https://golangbot.com/write-files/]https://golangbot.com/write-files/
+[https://golangbot.com/write-files/](https://golangbot.com/write-files/)
 [https://gobyexample.com/directories](https://gobyexample.com/directories)
 [https://gobyexample.com/file-paths](https://gobyexample.com/file-paths)
 [https://golang.org/pkg/os/](https://golang.org/pkg/os/)
