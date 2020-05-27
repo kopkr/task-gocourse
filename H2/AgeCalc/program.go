@@ -22,27 +22,38 @@ type Person struct {
 func query() Person{
 	var p Person
 	layoutFIN := "02.01.2006"
+	locHelsinki, _ := time.LoadLocation("Europe/Helsinki")
+
 
 	fmt.Print("Syötä henkilön nimi: ")
 	p.name = scan();
 	fmt.Print("Syötä henkilön syntymäpäivä (muodossa DD.MM.YYYY): ")
-	p.bday, _ = time.Parse(layoutFIN, scan())
+	p.bday, _ = time.ParseInLocation(layoutFIN, scan(), locHelsinki)
 
 	return p;
 }
 
 // Print Person profile
 func profile(p Person) {
+	layoutFIN := "02.01.2006"
 	fmt.Println("Nimi:",p.name)
-	fmt.Print("Syntymäpäivä: ")
-	fmt.Println(p.bday.Date()) //TODO: Format date
-	//TODO: Print age
+	fmt.Println("Syntymäpäivä:",p.bday.Format(layoutFIN))
+	fmt.Println("Ikä:",calcAge(p.bday))
 }
 
-/* TODO: Calculate age
-func calcAge() {
+// TODO: Calculate age
+// Currently does not consider leap years
+func calcAge(bday time.Time) int{
+	now := time.Now()
 
-}*/
+	//fmt.Println(bday)
+	//fmt.Println(now)
+
+	diff:=now.Sub(bday)
+	years:=(diff.Hours()/24)/365;
+
+	return int(years);
+}
 
 
 // Scanner function

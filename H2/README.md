@@ -34,15 +34,17 @@ Vowels: 11 Consonants: 12 Total: 23
 ~~~~
 
 [AgeCalc](AgeCalc/program.go)<br>
-(Työn alla) Idea: Ohjelma joka tulee ottamaan vastaan henkilötietoja (nimi, syntymäaika), laskee iän ja tulostaa.
+(Työn alla) Idea: Ohjelma joka tulee ottamaan vastaan henkilötietoja (nimi, syntymäaika) ja laskee iän.
 
-Tällä hetkellä ottaa vastaan nimen ja syntymäajan, ja esittää ne
+Tällä hetkellä ottaa vastaan nimen ja syntymäajan. Esittää nimen, syntymäpäivän ja iän.
+Ei ota huomioon hyppyvuosia, eli ikä saattaa heitellä.
 ~~~~
-$ go run program.go 
-Syötä henkilön nimi: Aarne
-Syötä henkilön syntymäpäivä (muodossa DD.MM.YYYY): 02.06.1985
+$ go run AgeCalc/program.go 
+Syötä henkilön nimi: Aarne     
+Syötä henkilön syntymäpäivä (muodossa DD.MM.YYYY): 23.08.1989
 Nimi: Aarne
-Syntymäpäivä: 1985 June 2
+Syntymäpäivä: 23.08.1989
+Ikä: 30
 ~~~~
 
 <hr>
