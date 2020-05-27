@@ -1,5 +1,7 @@
 # Go Course exercises
-This repository is to store exercises done for [Tero Karvinen's Go Programming](http://terokarvinen.com/2020/go-programming-course-2020-w22/#laksyt) course.
+This repository exists to store exercises done for [Tero Karvinen's Go Programming](http://terokarvinen.com/2020/go-programming-course-2020-w22/) course.
+
+[Assignments at TeroKarvinen.com(Finnish)](http://terokarvinen.com/2020/go-programming-course-2020-w22/#laksyt)
 
 ## [H1](H1/)
 
