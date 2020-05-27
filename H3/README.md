@@ -3,6 +3,7 @@ This repository is to store exercises done for [Tero Karvinen's Go Programming](
 
 ### H3
 >a) Kirjastosta päivää. Tee ohjelma, joka käyttää ainakin kahta uutta kirjastoa. Jos ohjelmallasi on jokin käyttötarkoitus, se on mainiota. Muista ensin kokeilla kutakin kirjastoa erikseen. Kirjastoja löytyy GoByExample ja Go:n virallisesta dokumentaatiosta. Käytä jotain uutta kirjastoa, eli ei pelkästään rand, fmt, time eikä string.
+
 >b) Lähteet. Katso, että olet viitannut kaikissa tehtävävastauksissasi kaikkiin lähteisiin, joita olet käyttänyt. Kurssiin, tehtävänantoihin, käyttämääsi materiaaliin (GoByExample tms), muiden koodeihin, StackOverflown vastauksiin ja kaikkiin muihinkin lähteisiin.
 
 ### [FileBackup](FileBackup/program.go)<br>
