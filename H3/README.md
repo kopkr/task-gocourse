@@ -44,13 +44,13 @@ Hello, world
 ~~~~
 
 Materiaalit<br>
-[https://golangbot.com/write-files/](https://golangbot.com/write-files/)
-[https://gobyexample.com/directories](https://gobyexample.com/directories)
-[https://gobyexample.com/file-paths](https://gobyexample.com/file-paths)
-[https://golang.org/pkg/os/](https://golang.org/pkg/os/)
-[https://golang.org/pkg/path/filepath/](https://golang.org/pkg/path/filepath/)
-[https://golang.org/pkg/io/](https://golang.org/pkg/io/)
-[https://stackoverflow.com/questions/21060945/simple-way-to-copy-a-file-in-golang](https://stackoverflow.com/questions/21060945/simple-way-to-copy-a-file-in-golang)
-[https://golangbyexample.com/check-if-file-or-directory-exists-go/](https://golangbyexample.com/check-if-file-or-directory-exists-go/)
+[https://golangbot.com/write-files/](https://golangbot.com/write-files/)<br>
+[https://gobyexample.com/directories](https://gobyexample.com/directories)<br>
+[https://gobyexample.com/file-paths](https://gobyexample.com/file-paths)<br>
+[https://golang.org/pkg/os/](https://golang.org/pkg/os/)<br>
+[https://golang.org/pkg/path/filepath/](https://golang.org/pkg/path/filepath/)<br>
+[https://golang.org/pkg/io/](https://golang.org/pkg/io/)<br>
+[https://stackoverflow.com/questions/21060945/simple-way-to-copy-a-file-in-golang](https://stackoverflow.com/questions/21060945/simple-way-to-copy-a-file-in-golang)<br>
+[https://golangbyexample.com/check-if-file-or-directory-exists-go/](https://golangbyexample.com/check-if-file-or-directory-exists-go/)<br>
 
 <hr>
