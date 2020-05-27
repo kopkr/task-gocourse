@@ -28,3 +28,19 @@ This repository is to store exercises done for [Tero Karvinen's Go Programming](
 >d) Vapaaehtoinen: Tee Tour of Go alusta luvun "More types: structs, slices, and maps" loppuun asti. Jos "Exercise"-kohdat ovat hankalia, voit hypätä niistä yli tai jättää ne viimeisiksi. Tätä d-kohtaa ei tarvitse raportoida.
 
 >e) Vapaaehtoinen: Kirjoita yksikkötesti (unit test).
+
+## [H3](H3/)
+
+[FileBackup](H3/FileBackup/program.go)
+
+>a) Kirjastosta päivää. Tee ohjelma, joka käyttää ainakin kahta uutta kirjastoa. Jos ohjelmallasi on jokin käyttötarkoitus, se on mainiota. Muista ensin kokeilla kutakin kirjastoa erikseen. Kirjastoja löytyy GoByExample ja Go:n virallisesta dokumentaatiosta. Käytä jotain uutta kirjastoa, eli ei pelkästään rand, fmt, time eikä string.
+
+>b) Lähteet. Katso, että olet viitannut kaikissa tehtävävastauksissasi kaikkiin lähteisiin, joita olet käyttänyt. Kurssiin, tehtävänantoihin, käyttämääsi materiaaliin (GoByExample tms), muiden koodeihin, StackOverflown vastauksiin ja kaikkiin muihinkin lähteisiin.
+
+>c) Kaikki tai jotain. Valitse aihe tai pari vaihtoehtoa kurssin loppuprojektille. Palastele: mieti, miten voit ensin toteuttaa pienen, toimivan kokonaisuuden. Ja sen päälle vaihtoehtoja laajentaa.
+
+>d) Vapaaehtoinen, helppo ja suositeltava: Asenna Go omaan isäntäjärjestelmääsi. Senhän saa Linuxille, Windowsille ja Macille. https://golang.org/ Jos Windowsin virustorjuntaohjelmasi poistelee mielivaltaisesti tiedostoja, kerro, kuinka annoit itsellesi virustorjunnan asetuksista luvan laittaa binäärejä johonkin hakemistoon.
+
+>e) Vapaaehtoinen: Grep. Tee ohjelma, joka näyttää tekstitiedostosta vain rivit, joilla mainitaan hakusana. Kun ohjelmasi toimii ja haluat lisähaastetta, voit tehdä lisäominaisuuksia: case insensitive, regular expressions, rekursio. Jos kaipaat vielä lisähaastetta, voit kokeilla, toimiiko ohjelmasi isolla (yli 50 GB) tiedostoilla, esim. tietokantadumpeilla?
+
+>f) Vapaaehtoinen: Tee Tour of Go loppuun. Jos "Exercise"-kohdat ovat hankalia, voit hypätä niistä yli tai jättää ne viimeisiksi. Tätä d-kohtaa ei tarvitse raportoida.
