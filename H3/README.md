@@ -7,7 +7,7 @@ This repository is to store exercises done for [Tero Karvinen's Go Programming](
 
 ### [FileBackup](FileBackup/program.go)<br>
 Ohjelma, joka varmuuskopioi tiedoston. Harjoittelua tiedostojen käsittelyyn os, io ja path/filepath kirjastoilla.<br>
-̃`-from` (pakollinen) - Ottaa vastaan tiedoston, joka varmuuskopioidaan.<br>
+`-from` (pakollinen) - Ottaa vastaan tiedoston, joka varmuuskopioidaan.<br>
 `-to` - Ottaa vastaan tallennussijainnin ja vapaavalintaisesti myös tiedostonimen. Oletuksena tallentaa samaan hakemistoon syötetyn tiedoston nimellä + .bak pääte. (foo.txt > foo.txt.bak)
 
 Esim. ilman `-to` parametria
